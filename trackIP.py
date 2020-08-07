@@ -17,7 +17,7 @@ location = str(res['latitude']) + ' '+ str(res['longitude'])
 base_url ='https://www.google.com/maps/place/'
 last_url = base_url + location
 
-driver = webdriver.Chrome(r'C:\Users\Emrah\Desktop\PythonProjects\chromedriver.exe')
+driver = webdriver.Chrome(r'path')
 driver.get(last_url)
 driver.maximize_window()
 time.sleep(2)
